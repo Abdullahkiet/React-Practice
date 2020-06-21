@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Hello() {
+function Hello({firstname}) {
   return <p>
-      This text is from Hello.js
+      This text is from Hello.js made by: {firstname}
   </p>
 
 }

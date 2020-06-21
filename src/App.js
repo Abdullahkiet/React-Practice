@@ -8,7 +8,7 @@ function App(props) {
   return (
     <div>
       Hello World by {props.name} age= {props.age-5}
-      <Hello></Hello>
+      <Hello firstname={props.name}></Hello>
      
       
   
