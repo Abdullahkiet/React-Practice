@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div>
-      Hello World
+      Hello World {props.name}
       
     </div>
   );
