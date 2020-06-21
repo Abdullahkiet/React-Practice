@@ -5,7 +5,7 @@ import './App.css';
 function App(props) {
   return (
     <div>
-      Hello World {props.name}
+      Hello World by {props.name}
       
     </div>
   );
