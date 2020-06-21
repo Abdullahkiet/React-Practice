@@ -1,13 +1,18 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
  
 
 function App(props) {
   return (
     <div>
       Hello World by {props.name} age= {props.age-5}
+      <Hello></Hello>
      
+      
+  
+      
     </div>
     
   );
